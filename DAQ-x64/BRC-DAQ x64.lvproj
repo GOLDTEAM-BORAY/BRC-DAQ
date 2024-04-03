@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="19008000">
+<Project Type="Project" LVVersion="15008000">
 	<Item Name="我的电脑" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -13,7 +13,7 @@
 		<Item Name="Examples" Type="Folder">
 			<Item Name="_test_dll.vi" Type="VI" URL="../Example/_test_dll.vi"/>
 		</Item>
-		<Item Name="BRC-DAQ x86.lvlib" Type="Library" URL="../BRC-DAQ x86.lvlib"/>
+		<Item Name="BRC-DAQ x64.lvlib" Type="Library" URL="../BRC-DAQ x64.lvlib"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
