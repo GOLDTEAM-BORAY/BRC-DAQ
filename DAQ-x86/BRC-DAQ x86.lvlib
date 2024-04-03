@@ -8,6 +8,12 @@
 
 </Property>
 	<Item Name="dll" Type="Folder">
+		<Item Name="DLL" Type="Folder">
+			<Item Name="api.h" Type="Document" URL="../DLL/api.h"/>
+			<Item Name="brc_daq_sdk.runtimeconfig.json" Type="Document" URL="../DLL/brc_daq_sdk.runtimeconfig.json"/>
+			<Item Name="Ijwhost.dll" Type="Document" URL="../DLL/Ijwhost.dll"/>
+			<Item Name="libusb-1.0.dll" Type="Document" URL="../DLL/libusb-1.0.dll"/>
+		</Item>
 		<Item Name="brc_daq_sdk.dll" Type="Document" URL="../DLL/brc_daq_sdk.dll"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
