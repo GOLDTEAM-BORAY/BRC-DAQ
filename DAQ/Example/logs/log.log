@@ -1,0 +1,41 @@
+2024/04/08 12:16:02.959 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。) System.DllNotFoundException: Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibErrorTracker.Throw(String) + 0x6f
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.FixupModuleCell(InteropHelpers.ModuleFixupCell*) + 0xfd
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.ResolvePInvokeSlow(InteropHelpers.MethodFixupCell*) + 0x2f
+   at LibUsbDotNet.NativeMethods.Init(IntPtr&) + 0x3b
+   at LibUsbDotNet.LibUsb.UsbContext..ctor() + 0x1f
+   at SDK.Scanner.<Scan>d__10.MoveNext() + 0x1ae | 
+2024/04/08 12:19:08.274 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。) System.DllNotFoundException: Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibErrorTracker.Throw(String) + 0x6f
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.FixupModuleCell(InteropHelpers.ModuleFixupCell*) + 0xfd
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.ResolvePInvokeSlow(InteropHelpers.MethodFixupCell*) + 0x2f
+   at LibUsbDotNet.NativeMethods.Init(IntPtr&) + 0x3b
+   at LibUsbDotNet.LibUsb.UsbContext..ctor() + 0x1f
+   at SDK.Scanner.<Scan>d__10.MoveNext() + 0x1ae | 
+2024/04/08 12:20:51.620 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。) System.DllNotFoundException: Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibErrorTracker.Throw(String) + 0x6f
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.FixupModuleCell(InteropHelpers.ModuleFixupCell*) + 0xfd
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.ResolvePInvokeSlow(InteropHelpers.MethodFixupCell*) + 0x2f
+   at LibUsbDotNet.NativeMethods.Init(IntPtr&) + 0x3b
+   at LibUsbDotNet.LibUsb.UsbContext..ctor() + 0x1f
+   at SDK.Scanner.<Scan>d__10.MoveNext() + 0x1ae | 
+2024/04/09 00:55:06.497 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (试图加载格式不正确的程序。 (0x8007000B)) System.BadImageFormatException: 试图加载格式不正确的程序。 (0x8007000B)
+   at LibUsbDotNet.NativeMethods.Init(IntPtr& ctx)
+   at LibUsbDotNet.LibUsb.UsbContext..ctor()
+   at SDK.Scanner.Scan() | 
+2024/04/09 00:55:06.519 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 00:55:06.529 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 00:55:06.529 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 00:56:07.678 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (试图加载格式不正确的程序。 (0x8007000B)) System.BadImageFormatException: 试图加载格式不正确的程序。 (0x8007000B)
+   at LibUsbDotNet.NativeMethods.Init(IntPtr& ctx)
+   at LibUsbDotNet.LibUsb.UsbContext..ctor()
+   at SDK.Scanner.Scan() | 
+2024/04/09 00:56:07.678 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 00:56:07.688 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 00:56:07.688 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
