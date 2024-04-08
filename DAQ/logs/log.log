@@ -1,0 +1,345 @@
+2024/04/08 12:21:37.933 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 12:21:37.933 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 12:21:37.933 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 12:22:11.211 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 12:22:11.228 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 12:22:11.228 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 12:22:35.166 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.GetModuleInfo(Int32, IntPtr) + 0x14d | 
+2024/04/08 12:23:05.882 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 12:23:05.892 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 12:23:05.892 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 13:30:35.252 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 13:30:35.262 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 13:30:35.262 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 14:52:55.492 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 14:53:18.251 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 14:53:44.301 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 14:54:06.878 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 14:55:01.795 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 14:57:11.696 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 16:23:44.384 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:23:46.009 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:23:46.009 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:24:21.871 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:24:23.487 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:24:23.487 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:25:05.156 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:25:06.770 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:25:06.770 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:26:13.181 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:26:21.623 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:26:21.623 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:32:49.825 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:32:49.825 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:32:49.825 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:33:58.589 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:33:58.600 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:33:58.600 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:34:02.906 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:34:02.906 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:34:02.906 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:34:15.679 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:34:15.690 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:34:15.690 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:36:38.677 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:36:56.993 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:36:57.638 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:39:05.778 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:39:24.093 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:39:24.738 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:57:01.392 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:57:01.403 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:57:01.403 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:57:21.454 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:57:21.465 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:57:21.465 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:57:28.154 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:57:28.154 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:57:28.154 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 16:57:33.917 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 16:57:33.917 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 16:57:33.917 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 17:00:13.370 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 17:00:13.381 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 17:00:13.381 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 17:00:20.850 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 17:00:20.860 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 17:00:20.860 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 17:01:48.576 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 17:01:48.576 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 17:01:55.414 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 17:01:55.424 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 17:02:16.470 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 17:02:16.481 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:11:41.741 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Exception.SetCurrentStackTrace() + 0x5c
+   at System.Threading.Tasks.Task.GetExceptions(Boolean) + 0x42
+   at System.Threading.Tasks.Task.Wait(Int32, CancellationToken) + 0x96
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x70
+   at SDK.Wrapper.UnmanagedExportor.GetChannelsData(Int32, IntPtr, Int32, Int32, Int32) + 0x3c
+--- End of stack trace from previous location ---
+ | 
+2024/04/08 19:11:42.072 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (The operation has timed out.) System.TimeoutException: The operation has timed out.
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x20
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xb2
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task, ConfigureAwaitOptions) + 0x4b
+   at SDK.Protocal.DotNetty.Usb.UsbModuleClient.<SendReceiveAsync>d__11`1.MoveNext() + 0x3f3
+--- End of stack trace from previous location ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x20
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xb2
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task, ConfigureAwaitOptions) + 0x4b
+   at SDK.Protocal.DotNetty.Usb.AbstractModuleClient.<ADCStop>d__33.MoveNext() + 0x242
+--- End of stack trace from previous location ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw() + 0x20
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task) + 0xb2
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task, ConfigureAwaitOptions) + 0x4b
+   at SDK.Wrapper.Wrapper.<Stop>d__13.MoveNext() + 0x14e | 
+2024/04/08 19:57:16.369 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:16.379 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:57:21.396 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:21.406 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:57:32.331 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:32.341 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:57:36.295 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:36.295 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:57:40.194 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:40.204 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:57:43.964 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:57:43.973 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 19:58:07.776 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 19:58:07.785 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 22:39:47.686 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:40:56.000 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:43:03.455 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:43:03.466 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 22:43:03.466 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 22:43:07.736 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:43:07.746 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 22:43:07.746 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 22:43:11.719 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:43:11.719 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32) + 0x87 | 
+2024/04/08 22:43:11.719 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32) + 0x87 | 
+2024/04/08 22:45:09.602 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:10.426 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:10.794 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:19.607 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:20.838 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:21.295 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:21.671 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:21.968 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:22.183 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:22.375 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:22.558 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:22.753 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:22.928 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:23.111 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:23.560 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:23.910 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:24.119 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:24.322 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:24.761 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:25.055 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:25.289 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:25.511 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:25.903 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:26.143 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:26.358 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:26.561 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:30.586 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:31.039 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:31.279 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:31.472 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:31.647 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 22:45:31.847 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32) + 0x24d | 
+2024/04/08 23:27:14.269 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (试图加载格式不正确的程序。 (0x8007000B)) System.BadImageFormatException: 试图加载格式不正确的程序。 (0x8007000B)
+   at LibUsbDotNet.NativeMethods.Init(IntPtr& ctx)
+   at LibUsbDotNet.LibUsb.UsbContext..ctor()
+   at SDK.Scanner.Scan() | 
+2024/04/08 23:27:14.291 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/08 23:27:14.291 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/08 23:27:14.291 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/08 23:27:56.752 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (试图加载格式不正确的程序。 (0x8007000B)) System.BadImageFormatException: 试图加载格式不正确的程序。 (0x8007000B)
+   at LibUsbDotNet.NativeMethods.Init(IntPtr& ctx)
+   at LibUsbDotNet.LibUsb.UsbContext..ctor()
+   at SDK.Scanner.Scan() | 
+2024/04/09 00:27:42.303 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 00:27:42.313 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 00:27:42.313 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 00:27:49.891 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 00:27:49.902 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 00:27:49.902 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 

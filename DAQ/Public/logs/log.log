@@ -1,0 +1,7 @@
+2024/04/08 11:42:39.559 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。) System.DllNotFoundException: Unable to load DLL 'libusb-1.0' or one of its dependencies: 找不到指定的模块。
+   at System.Runtime.InteropServices.NativeLibrary.LoadLibErrorTracker.Throw(String) + 0x6f
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.FixupModuleCell(InteropHelpers.ModuleFixupCell*) + 0xfd
+   at Internal.Runtime.CompilerHelpers.InteropHelpers.ResolvePInvokeSlow(InteropHelpers.MethodFixupCell*) + 0x2f
+   at LibUsbDotNet.NativeMethods.Init(IntPtr&) + 0x3b
+   at LibUsbDotNet.LibUsb.UsbContext..ctor() + 0x1f
+   at SDK.Scanner.<Scan>d__10.MoveNext() + 0x1ae | 
