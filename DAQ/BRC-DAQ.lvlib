@@ -36,19 +36,4 @@
 		<Item Name="brc_daq_start_DAQ.vi" Type="VI" URL="../Public/brc_daq_start_DAQ.vi"/>
 		<Item Name="brc_daq_stop_DAQ.vi" Type="VI" URL="../Public/brc_daq_stop_DAQ.vi"/>
 	</Item>
-	<Item Name="Unit Test" Type="Folder">
-		<Item Name="brc_daq_get_module_info.lvtest" Type="TestItem" URL="../Public/Unit Test/brc_daq_get_module_info.lvtest">
-			<Property Name="utf.test.bind" Type="Str">BRC-DAQ.lvlib:brc_daq_get_module_info.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">83C6ABEF-2881-C9AB-A5FE-CF0F197DD773</Property>
-		</Item>
-		<Item Name="brc_daq_scan_modules.lvtest" Type="TestItem" URL="../Public/Unit Test/brc_daq_scan_modules.lvtest">
-			<Property Name="utf.test.bind" Type="Str">BRC-DAQ.lvlib:brc_daq_scan_modules.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">CE95E92E-3682-6287-464C-D11EA7FD2AEB</Property>
-		</Item>
-		<Item Name="User_Defined_Test_brc_daq_connect_module.lvtest" Type="TestItem" URL="../Public/Unit Test/User_Defined_Test_brc_daq_connect_module.lvtest">
-			<Property Name="utf.test.bind" Type="Str">BRC-DAQ.lvlib:brc_daq_connect_module.vi</Property>
-			<Property Name="utf.vector.test.bind" Type="Str">0A008176-4766-EE64-B4F8-16A5C2A8F163</Property>
-		</Item>
-		<Item Name="User_Defined_Test_brc_daq_connect_module.vi" Type="VI" URL="../Public/Unit Test/User_Defined_Test_brc_daq_connect_module.vi"/>
-	</Item>
 </Library>

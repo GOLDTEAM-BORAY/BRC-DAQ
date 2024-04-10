@@ -343,3 +343,104 @@
    at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
 2024/04/09 00:27:49.902 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
    at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:03:29.772 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:03:29.804 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:03:29.804 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:03:41.853 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:03:41.862 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:03:41.862 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:12:34.600 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.Task.GetExceptions(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32 mHandle, IntPtr data_array, Int32 length, Int32 data_array_length, Int32 timeout)
+   at get_channels_data(Int32 mHandle, Double* data_array, Int32 length, Int32 data_array_length, Int32 timeout)
+--- End of stack trace from previous location ---
+ | 
+2024/04/09 16:12:34.902 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (The operation has timed out.) System.TimeoutException: The operation has timed out.
+   at SDK.Protocal.DotNetty.Usb.UsbModuleClient.SendReceiveAsync[U](IMessage payload, Int32 timeout)
+   at SDK.Protocal.DotNetty.Usb.AbstractModuleClient.ADCStop()
+   at SDK.Wrapper.Wrapper.Stop() | 
+2024/04/09 16:17:02.678 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:17:02.688 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:17:02.688 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:17:13.792 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:17:13.792 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:17:13.792 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:17:22.656 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:17:22.667 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:17:22.667 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 16:17:38.536 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 16:17:38.548 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 16:17:38.548 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 17:34:47.296 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 17:34:47.563 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 17:34:47.563 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 17:35:41.657 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (LogError connecting to 192.168.1.100:5000) DotNetty.Transport.Channels.ConnectException: LogError connecting to 192.168.1.100:5000
+ ---> System.Net.Sockets.SocketException (10060): 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.TcpSocketChannel.DoFinishConnect(SocketChannelAsyncOperation operation)
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketChannel.AbstractSocketUnsafe.FinishConnect(SocketChannelAsyncOperation operation)
+   --- End of inner exception stack trace ---
+   at DotNetty.Transport.Bootstrapping.Bootstrap.DoResolveAndConnectAsync(EndPoint remoteAddress, EndPoint localAddress)
+   at SDK.Protocal.NetModuleClientFactory.ConnectAsync(ModuleInfo moduleInfo)
+   at SDK.Wrapper.Wrapper.ConnectModule(ModuleInfo moduleInfo) | 
+2024/04/09 17:37:33.082 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 17:37:33.093 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 17:37:33.093 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 17:37:41.711 | WARN | DotNetty.Transport.Channels.DefaultChannelPipeline | An ExceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception. System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation) | 
+2024/04/09 17:37:41.711 | WARN | DotNetty.Transport.Channels.DefaultChannelPipeline | An ExceptionCaught() event was fired, and it reached at the tail of the pipeline. It usually means the last handler in the pipeline did not handle the exception. System.Net.Sockets.SocketException (10054): 远程主机强迫关闭了一个现有的连接。
+   at DotNetty.Transport.Channels.Sockets.SocketChannelAsyncOperation.Validate()
+   at DotNetty.Transport.Channels.Sockets.AbstractSocketByteChannel.SocketByteChannelUnsafe.FinishRead(SocketChannelAsyncOperation operation) | 
+2024/04/09 17:38:05.307 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/09 17:38:05.307 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/09 17:38:05.307 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/09 19:32:01.854 | ERROR | SDK.Wrapper.Exportor | One or more errors occurred. (A task was canceled.) System.Threading.Tasks.TaskCanceledException: A task was canceled.
+   at System.Threading.Tasks.Task.GetExceptions(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)
+   at SDK.Wrapper.Exportor.GetChannelsData(Int32 mHandle, IntPtr data_array, Int32 length, Int32 data_array_length, Int32 timeout)
+   at get_channels_data(Int32 mHandle, Double* data_array, Int32 length, Int32 data_array_length, Int32 timeout)
+--- End of stack trace from previous location ---
+ | 
+2024/04/10 16:17:59.956 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/10 16:17:59.986 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/10 16:17:59.986 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 
+2024/04/10 16:21:20.586 | ERROR | SDK.Wrapper.Exportor | Specified argument was out of the range of valid values. (Parameter 'index') System.ArgumentOutOfRangeException: Specified argument was out of the range of valid values. (Parameter 'index')
+   at SDK.Wrapper.Exportor.ConnectModule(Int32 index) | 
+2024/04/10 16:21:20.597 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.Stop(Int32 mHandle) | 
+2024/04/10 16:21:20.597 | ERROR | SDK.Wrapper.Exportor | 连接不存在 System.Exception: 连接不存在
+   at SDK.Wrapper.Exportor.DisconnectModule(Int32 mHandle) | 

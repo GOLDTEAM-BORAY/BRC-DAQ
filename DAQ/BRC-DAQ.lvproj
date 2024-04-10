@@ -1,6 +1,7 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
 <Project Type="Project" LVVersion="19008000">
 	<Item Name="我的电脑" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -14,7 +15,11 @@
 			<Item Name="_test_dll.vi" Type="VI" URL="../Example/_test_dll.vi"/>
 			<Item Name="Read Mulit Voltage.vi" Type="VI" URL="../Example/Read Mulit Voltage.vi"/>
 		</Item>
+		<Item Name="Unit Test" Type="Folder">
+			<Item Name="Unit Test Main.vi" Type="VI" URL="../Unit Test/Unit Test Main.vi"/>
+		</Item>
 		<Item Name="BRC-DAQ.lvlib" Type="Library" URL="../BRC-DAQ.lvlib"/>
+		<Item Name="libusb-1.0.dll" Type="Document" URL="../libusb-1.0.dll"/>
 		<Item Name="依赖关系" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
